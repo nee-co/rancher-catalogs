@@ -1,0 +1,21 @@
+.catalog:
+  name: aldea
+  uuid: aldea-0
+  description: aldea
+  version: 1.0
+
+  questions:
+    - variable: MYSQL_USER
+      label: MYSQL_USER
+      type: string
+      required: true
+
+    - variable: MYSQL_PASSWORD
+      label: MYSQL_PASSWORD
+      type: password
+      required: true
+
+    - variable: ALDEA_SECRET_KEY_BASE
+      label: ALDEA_SECRET_KEY_BASE
+      type: password
+      required: true
